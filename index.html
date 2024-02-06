@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>lista de convidados</h1></header>
+    <main>
+        <div>
+            <input type="text" name="" id="nomes" placeholder="digite o nome">
+            <br>
+            <button onclick="enviarnomes()">enviar</button>
+            <br>
+            <hr>
+            <div id="mostrarnomes"></div>
+            <hr>
+            <h3>em ordem alfabética</h3>
+            <button onclick="emordemalfabética()">organizar</button>
+            <div id="organizado"></div>
+            <hr>
+            <input type="text" id="pesquisarnome" placeholder="digite para pesquisar">
+            <br>
+            <button onclick="pesquisar()">pesquisar</button>
+            <div id="nomeslocalizados"></div>
+        </div>
+    </main>
+    <footer></footer>
+    <script src="main.js"></script>
+</body>
+</html>
